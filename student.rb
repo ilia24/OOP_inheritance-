@@ -1,9 +1,13 @@
-class Student < Person
-  def initialize(name)
-    super(name)
-  end
+require_relative 'person'
 
-  
+
+class Student < Person
+
+
+
 
 
 end
+
+chris = Student.new(chris)
+chris.greet

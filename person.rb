@@ -3,4 +3,7 @@ class Person
     @name = name
   end
 
+  def greet
+    "Hi my name is #{@name}"
+  end
 end
